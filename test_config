@@ -1,0 +1,17 @@
+# user0の定義
+Host github.com.user0
+   HostName github.com
+   User git
+   Port 22
+   IdentityFile ~/.ssh/rsa_4096_user0
+   TCPKeepAlive yes
+   IdentitiesOnly yes
+# user1の定義
+Host github.com.user1
+   HostName github.com
+   User git
+   Port 22
+   IdentityFile ~/.ssh/rsa_4096_user1.pub
+   TCPKeepAlive yes
+   IdentitiesOnly yes
+
